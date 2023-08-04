@@ -1,0 +1,12 @@
+[module "08664e25-83cb-3884-80f0-09c13e8ca37d"]
+	conflict = request-pull
+	path = uriToMovie
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/674613595
+[map "7f0e81ba-0736-3281-af1e-0e8064525745"]
+	object = 426c0cb5da63f19cd49b3972e99ea9b6bb983b13
+	path = uriToMovie
+	stage = sync
+	type = extract module
